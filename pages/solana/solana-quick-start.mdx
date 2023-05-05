@@ -34,10 +34,10 @@ For this guide, you will be using npm or yarn as our package manager to install 
 
 Run the following command to install the Solana Web3.js library with npm or yarn.
 
-```js filename="npm" 
+```js filename="npm" {2} copy
   npm install --save @solana/web3.js
 ```
-```js filename="yarn" 
+```js filename="yarn" {2} copy
   yarn add @solana/web3.js
 ```
 
@@ -45,7 +45,7 @@ Run the following command to install the Solana Web3.js library with npm or yarn
 You are all set now to use Solana API and make your first request. For instance, lets make a request 
 to get latest slot. Create an index.js file and paste the following code snippet into the file.
 
-``` js filename="index.js" 
+``` js filename="index.js" {12} copy
   const solanaWeb3 = require("@solana/web3.js");
 
   const main = async () => {
@@ -62,7 +62,7 @@ to get latest slot. Create an index.js file and paste the following code snippet
 ### Run script
 To run the above node script, use cmd ```node index.js```, and you should see the output.
 
-```js filename="Terminal" 
+```js filename="Terminal" {2} copy
   The latest slot number is 174140717
 ```
 
@@ -84,7 +84,7 @@ optional parameter in each account-scanning method. Additionally, you can includ
 sort the accounts in the response by their pubkey field.
 
 Here's an example with getProgramAccounts:
-```js filename="Typescript"
+```js filename="Typescript" {44} copy
   const axios = require("axios");
 
   function getProgramAccountsExample() {
