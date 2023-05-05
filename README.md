@@ -1,4 +1,4 @@
-# Graux Docs Template 
+# Graux Docs
 
 Graux documentation with [Nextra](https://nextra.site).
 
