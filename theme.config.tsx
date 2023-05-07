@@ -46,7 +46,7 @@ const config: DocsThemeConfig = {
       svg {
         width: 90%;
         height: auto;
-        margin-left: -100px;
+        margin-left: -120px;
         margin-top: 65px;
       }
     `}</style>
