@@ -62,7 +62,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/isamyakt/graux-docs.git',
   footer: {
-    text: 'Graux Docs',
+    text: '© 2023 Graux Docs',
   },
 }
 
