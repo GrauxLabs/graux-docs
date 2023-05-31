@@ -2,7 +2,7 @@
 
 Graux documentation with [Nextra](https://nextra.site).
 
-[**Live Demo →**](graux-docs.vercel.app)
+[**Live Demo →**](https://graux-docs.vercel.app)
 
 
 ## Local Development
