@@ -55,12 +55,12 @@ const config: DocsThemeConfig = {
   // ),
   <strong><span>Graux</span></strong>,
   project: {
-    link: 'https://github.com/isamyakt/graux-docs.git',
+    link: 'https://github.com/GrauxLabs/graux-docs.git',
   },
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: 'https://github.com/isamyakt/graux-docs.git',
+  docsRepositoryBase: 'https://github.com/GrauxLabs/graux-docs.git',
   footer: {
     text: '© 2023 Graux Docs',
   },
