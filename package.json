@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isamyakt/graux-docs.git"
+    "url": "git+https://github.com/GrauxLabs/graux-docs.git"
   },
   "author": "Samyakt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/isamyakt/graux-docs/issues"
+    "url": "https://github.com/GrauxLabs/graux-docs/issues"
   },
-  "homepage": "https://github.com/isamyakt/graux-docs.git#readme",
+  "homepage": "https://github.com/GrauxLabs/graux-docs.git#readme",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",
@@ -28,4 +28,3 @@
     "@types/node": "18.11.10",
     "typescript": "^4.9.3"
   }
-}
